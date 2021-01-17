@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700");
+
+.title-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9375CA;
+    font-weight: 700;
+}
+
+.login-label {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4D4F5C;
+    font-weight: 400;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.empUpdateWindowController">
+   <children>
+      <Label layoutX="22.0" layoutY="46.0" style="-fx-font-size: 20px; -fx-font-weight: 700;" text="UPDATE PRODUCT" textFill="#9375ca">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="productName" focusColor="#9375ca" layoutX="48.0" layoutY="107.0" prefHeight="37.0" prefWidth="302.0" promptText="Product Name " />
+      <JFXTextField fx:id="quantity" focusColor="#9375ca" layoutX="49.0" layoutY="163.0" prefHeight="37.0" prefWidth="302.0" promptText="Quantity" />
+      <JFXTextField fx:id="unitPrice" focusColor="#9375ca" layoutX="49.0" layoutY="221.0" prefHeight="37.0" prefWidth="302.0" promptText="Unit Price" />
+      <JFXTextField fx:id="category" focusColor="#9375ca" layoutX="49.0" layoutY="281.0" prefHeight="37.0" prefWidth="302.0" promptText="Category" />
+      <JFXTextArea fx:id="productDescription" focusColor="#9375ca" layoutX="48.0" layoutY="340.0" prefHeight="126.0" prefWidth="302.0" promptText="Product Description" />
+      <JFXButton fx:id="updateButton" layoutX="139.0" layoutY="498.0" prefHeight="44.0" prefWidth="120.0" style="-fx-background-color: #9375ca;" text="Update" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

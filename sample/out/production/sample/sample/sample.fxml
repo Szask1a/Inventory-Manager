@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loginController">
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="768.0" fitWidth="600.0" pickOnBounds="true">
+               <image>
+                  <Image url="https://i.imgur.com/kt9BhFK.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="104.0" fitWidth="100.0" layoutX="250.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.imgur.com/b0s2e6S.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="601.0" prefHeight="770.0" prefWidth="767.0">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="63.0" layoutX="213.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.imgur.com/b0s2e6S.png" />
+               </image>
+            </ImageView>
+            <Label contentDisplay="CENTER" layoutX="240.0" layoutY="202.0" prefHeight="27.0" prefWidth="306.0" style="-fx-font-weight: 400;" styleClass="login-label" stylesheets="@component-stylesheet.css" text="Welcome back! Please login to your account." textAlignment="CENTER" textFill="#4d4f5c">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="275.0" layoutY="98.0" prefHeight="46.0" prefWidth="339.0" style="-fx-font-weight: 700;" styleClass="title-text" stylesheets="@component-stylesheet.css" text="B L E N D   S T U D I O S" textFill="#9375ca">
+               <font>
+                  <Font size="30.0" />
+               </font></Label>
+            <TextField fx:id="usernameTextField" layoutX="240.0" layoutY="264.0" prefHeight="38.0" prefWidth="306.0" promptText="Enter your username" />
+            <CheckBox fx:id="rememberMeCheckbox" layoutX="240.0" layoutY="407.0" mnemonicParsing="false" text="Remember me" textFill="#9375ca" />
+            <Label fx:id="forgotPasswordLabel" layoutX="457.0" layoutY="407.0" text="Forgot password" textFill="#9375ca" />
+            <Button fx:id="loginButton" layoutX="240.0" layoutY="461.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="142.0" style="-fx-background-color: #9375ca; -fx-cursor: hand; -fx-font-size: 14px;" text="LOGIN" textFill="WHITE" />
+            <Button fx:id="signupButton" layoutX="403.0" layoutY="461.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="142.0" style="-fx-background-color: #9375ca; -fx-cursor: hand;" text="SIGNUP" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label fx:id="privacyPolicy" layoutX="333.0" layoutY="707.0" text="Term of use. Privacy policy" textFill="#9375ca" />
+            <PasswordField fx:id="passwordTextField" layoutX="240.0" layoutY="338.0" prefHeight="38.0" prefWidth="306.0" promptText="Enter your password" />
+         </children>
+      </AnchorPane>
+      <CheckBox mnemonicParsing="false" text="CheckBox" />
+   </children>
+</AnchorPane>
